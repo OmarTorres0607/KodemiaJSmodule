@@ -96,6 +96,8 @@ Ejercicio 3:
 // */
 
 // let texto = "Cada estudiante tiene su ritmo, cada estudiante tiene su talento, y cada estudiante complementa al estudiante que tiene a su lado"
+// let conteoestud = texto.match(/estudiante/g).length
+// console.log(`la palabra estudiante aparece ${conteoestud} veces`)
 // let koderchange = texto.replace("estudiante", "Koder")
 // console.log(koderchange)
 /*
@@ -105,19 +107,19 @@ Ejercicio 5:
     Output: "el string {string 1} es el más largo"
 */
 
-function comparador (str1 , str2){
-    let cont1 = str1.length
-    console.log(cont1)
-    let cont2 = str2.length
-    console.log(cont2)
-    // let maslargo = cont1 >= cont2 ? `el string ${str1} es mayor` : `el string ${str2} es mayor`
-    if (cont1 > cont2) {
-        console.log(`el string ${str1} es mayor`)
-    } else {
-        console.log(`el string ${str2} es mayor`)
-    }
-}
-comparador("uno","cinco")
+// function comparador (str1 , str2){
+//     let cont1 = str1.length
+//     console.log(cont1)
+//     let cont2 = str2.length
+//     console.log(cont2)
+//     // let maslargo = cont1 >= cont2 ? `el string ${str1} es mayor` : `el string ${str2} es mayor`
+//     if (cont1 > cont2) {
+//         console.log(`el string ${str1} es mayor`)
+//     } else {
+//         console.log(`el string ${str2} es mayor`)
+//     }
+// }
+// comparador("uno","cinco")
 
 /*
 Ejercicio 6:

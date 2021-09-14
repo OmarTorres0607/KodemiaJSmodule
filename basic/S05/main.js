@@ -115,6 +115,34 @@ output:
 //     return a * b
 // }
 
-const multiplicacion = (a,b) => a * b
+// const multiplicacion = (a,b) => a * b
 
-console.log(multiplicacion(5,10))
+// console.log(multiplicacion(5,10))
+
+/*
+Ejercicio
+- Funcion que me regrese un numero aleatorio desde 0 hasta array.length
+- Funcion que reciba el indice para imprimir el nombre
+*/
+
+// 1. definir array que se utilizara en el ejercicio
+// 2. definir funcion en la que se ingresara 
+
+const arrayKoders = [
+        "Elias",
+        "Chio", 
+        "Kraken",
+        "Clau", 
+        "Fanny"
+    ]   
+    let longitud = arrayKoders.length
+const randomizador = array => Math.floor((Math.random()*longitud)+1)
+
+let resultado = randomizador(arrayKoders)
+console.log(resultado)
+
+// const indice = index => {
+//    let result = arrayKoders[index]
+// }
+
+// let indiceKoder = (indice(randomizador(arrayKoders)))

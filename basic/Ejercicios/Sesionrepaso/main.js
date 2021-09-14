@@ -32,17 +32,17 @@
 
 // -----------------------------------------------------------------------------------------------
 
-//3. Crear un programa que permita al usuario retornar el numero de coincideas de una palabra en una frase que el mismo usuario introduzca
+// //3. Crear un programa que permita al usuario retornar el numero de coincideas de una palabra en una frase que el mismo usuario introduzca
 
-let fraseini = prompt ("Ingrese frase a analizar")
+// let fraseini = prompt ("Ingrese frase a analizar")
 
-let str = prompt("Que palabra desea buscar")
+// let str = prompt("Que palabra desea buscar")
 
-let gugle = fraseini.count(str)
+// let gugle = fraseini.count(str)
 
-// let coincidencias = gugle.length
+// // let coincidencias = gugle.length
 
-console.log(gugle)
+// console.log(gugle)
 
 
 //4. Crear un programa que permita al usuario extraer uns subcadena de una cadena dada.
@@ -129,3 +129,48 @@ console.log(gugle)
 //15. Crear un programa que dados los datos de 3 lados de un triangulo con base en esos datos, determinar el área del triangulo y mostrarla en un mensaje en otro mensaje, indicar si el triangulo es isoseles, equilátero o escaleno.
 
 //16. Crear un programa que genere un string con "n" caracteres aleatorios, con la unica condicion de que no haya caracteres repetidos en el string.
+
+
+
+let dataArray = [
+    ["Fernanda", "Palacios"],
+    ["Alfred", "Altamirano"],
+    ["Angel", "Resendiz"],
+    ["Elda", "Corona"],
+    ["Tux", "Tuxtla"],
+    ["Jorge", "De Buen"]
+]
+
+    const getarrayobject = (arrayMentors) => {
+        let newArrayMentors = []
+        for (let i = 0; i < arrayMentors.length; i++) {
+            console.log(arrayMentors[i])
+            let name = arrayMentors[i][0]
+            let lastName = arrayMentors[i][1]
+            let mentorObject = {name, lastName}
+            newArrayMentors.push(mentorObject)
+        }
+        return newArrayMentors
+    }
+
+    let result = getarrayobject(dataArray)
+    console.log(result)
+
+// /*
+// arrayMentor = [
+//     {
+//         name: "Fernanda",
+//         lastName: "Palacios"
+//     },
+//     {
+//         name: "Alfred",
+//         lastName: "Altamirano"
+//     },
+//     ...,
+//     {...}
+// ]
+// */
+// Contraer
+
+
+

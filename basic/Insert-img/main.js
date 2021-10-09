@@ -18,3 +18,4 @@ imageUploader.addEventListener('change', async (event) => {
     console.log(res)
     imagePreview.src = res.data.secure_url
 })
+
